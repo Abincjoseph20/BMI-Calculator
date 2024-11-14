@@ -1,0 +1,65 @@
+/* Apply basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the entire page */
+  .divMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f4f4f4; /* Off-white background */
+  }
+  
+  /* Create a centered form container with transparency */
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better effect */
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Style for input fields */
+  .input1,
+  .input2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Style for buttons */
+  .btn1,
+  .btn2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover,
+  .btn2:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for results */
+  .div2 h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .div2 h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
